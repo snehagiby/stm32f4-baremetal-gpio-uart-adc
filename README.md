@@ -9,19 +9,19 @@ All peripheral access done directly via memory mapped register address and bit f
 
 ### Target Hardware
 	
--MCU	STM32F446RE
--Board	NUCLEO-F446RE
--Toolchain	STM32CubeIDE
+- MCU:	STM32F446RE
+- Board:	NUCLEO-F446RE
+- Toolchain:	STM32CubeIDE
 
 #### Feature
 
-  -GPIO Pin PA5 in build LED on Nucleo board blink based on inbuild button press status.
-  -GPIO Pin PC13 in build button for the Nucleo board controls the LED blinking.
-  -USART2 PA2,PA3 AF0 in build USART for printing the data on console.
-  -ADC1 PA1 in build A1 pin for reading the Analog value based on the button status.
+  - GPIO Pin PA5 in build LED on Nucleo board blink based on inbuild button press status.
+  - GPIO Pin PC13 in build button for the Nucleo board controls the LED blinking.
+  - USART2 PA2,PA3 AF0 in build USART for printing the data on console.
+  - ADC1 PA1 in build A1 pin for reading the Analog value based on the button status.
 
 ##### Project Structure
-
+```text
 ├── Inc/           # Header files (base.h,adc.h,gpio.h,usart.h)
 ├── Src/           # Source files (driver implementations-base.c,adc.c,gpio.c,usart.c, main.c)
 ├── Startup/       # Startup assembly file
@@ -29,7 +29,7 @@ All peripheral access done directly via memory mapped register address and bit f
 ├── STM32F446RETX_RAM.ld     # Linker script (RAM)
 ├── .project / .cproject     # STM32CubeIDE project files
 └── .gitignore
-
+```
 ###### Usage API
 
 ## GPIO:
