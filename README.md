@@ -1,9 +1,10 @@
 Register-level peripheral drivers for the STM32F446RE written without CMSIS or HAL.All peripheral access done directly via memory mapped register address and bit field.
 
-TARGET HARDWARE
-  MCU:STM32F446RE
-  Board : Nucleo-F446RE
-  Toolchain: STM32CUBEIDE
+Target Hardware
+	
+MCU	STM32F446RE
+Board	NUCLEO-F446RE
+Toolchain	STM32CubeIDE
 
 Feature
   GPIO Pin PA5 in build LED on Nucleo board blink based on inbuild button press status.
