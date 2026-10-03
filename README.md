@@ -7,7 +7,7 @@ Baremetal-gpio-uart-adc
 Register-level peripheral drivers for the STM32F446RE written without CMSIS or HAL.
 All peripheral access done directly via memory mapped register address and bit field.
 
-**###Target Hardware**
+###Target Hardware
 	
 -MCU	STM32F446RE
 -Board	NUCLEO-F446RE
